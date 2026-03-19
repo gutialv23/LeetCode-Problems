@@ -21,8 +21,6 @@
 #include <list>
 #include <numeric>
 #include <map>
-#include <unordered_set>
-#include <unordered_map>
 
 using namespace std;
 
@@ -62,8 +60,6 @@ int main()
   int32_t k = 3;
 
   vector<int32_t> nums = { 7,4,3,9,1,8,5,2,6 };
-
-  unordered_map<int32_t, unordered_set<int32_t> > num_to_indices;
 
   const vector<int32_t> out = getAverages(nums, k);
 
